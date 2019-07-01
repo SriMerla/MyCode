@@ -17,6 +17,6 @@ node {
     
      sh "echo 'I am from github'"
     
-     sh "echo 'I am polling 1 min test 2'"
+     sh "echo 'I am polling 1 min test 3'"
     
 }
