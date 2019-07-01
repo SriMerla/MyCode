@@ -15,6 +15,7 @@ node {
     
     sh "echo 'Deployed to target server'"
     
+     sh "echo 'I am from github'"
     
     
 }
