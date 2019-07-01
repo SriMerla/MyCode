@@ -1,0 +1,26 @@
+package loginfacebook;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class loginfb {
+
+	public static void main(String[] args) {
+		
+	  System.setProperty("webdriver.gecko.driver", "/Users/sri/Documents/BrowserDrivers/Firefox/geckodriver");
+	  
+	  WebDriver driver = new FirefoxDriver();
+	  
+	  driver.manage().window().maximize();
+	  
+	  driver.get("https://www.facebook.com");
+	  
+	  System.out.println("Success");
+	  
+	  driver.close();
+	  
+	  
+
+	}
+
+}

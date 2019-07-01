@@ -1,0 +1,33 @@
+package loginfacebook;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class loginfb {
+
+	public static void main(String[] args) {
+		
+	  System.setProperty("webdriver.gecko.driver", "/Users/sri/Documents/BrowserDrivers/Firefox/geckodriver");
+	  
+	  WebDriver driver = new FirefoxDriver();
+	  
+	  driver.manage().window().maximize();
+	  
+	  driver.get("https://www.facebook.com");
+	  
+	  System.out.println("Success");
+	  
+	  driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("srimerla414@gmail.com");
+	  
+	  driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("sweetysree09");
+	  
+	  driver.findElement(By.xpath("//*[@id=\"u_0_2\"]")).click();
+	  
+	  driver.close();
+	  
+	  
+
+	}
+
+}
