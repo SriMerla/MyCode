@@ -1,0 +1,8 @@
+package com.phptravels.stepDef;
+
+public class Snippet {
+	public static void main(String[] args) {
+		junit
+	}
+}
+

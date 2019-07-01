@@ -1,0 +1,26 @@
+package com.phptravels.stepDef;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class LoginStepDefs {
+	
+	@Given ("^ user is on the login page$")
+	public void navigate_to_registerpage() {
+		
+		System.out.println("user navigated to Registerpage");
+	}
+    @When ("^I enter <FirstName> in the first name text field$")
+    public void enter_firstname() {
+		
+		System.out.println("user entered first name");
+	}
+    @And ("^I enter <LastName> in the last name text field$")
+    public void enter_lastname() {
+		
+		System.out.println("user entered last name");
+	}
+	
+	
+}
