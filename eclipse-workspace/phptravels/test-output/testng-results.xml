@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34230" started-at="2019-06-13T01:46:59Z" finished-at="2019-06-13T01:47:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34230" started-at="2019-06-13T01:46:59Z" finished-at="2019-06-13T01:47:33Z">
+      <class name="com.phptravels.testcases.HotelPageTest">
+        <test-method status="PASS" signature="setUp()[pri:1, instance:com.phptravels.testcases.HotelPageTest@4501b7af]" name="setUp" duration-ms="29097" started-at="2019-06-13T01:46:59Z" finished-at="2019-06-13T01:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickSearch()[pri:5, instance:com.phptravels.testcases.HotelPageTest@4501b7af]" name="clickSearch" duration-ms="1721" started-at="2019-06-13T01:47:29Z" finished-at="2019-06-13T01:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:6, instance:com.phptravels.testcases.HotelPageTest@4501b7af]" name="tearDown" duration-ms="3193" started-at="2019-06-13T01:47:30Z" finished-at="2019-06-13T01:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.phptravels.testcases.HotelPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunTest (1)" project="MercuryTours" tests="6" started="6" failures="0" errors="0" ignored="6">
+  <testsuite name="testRunner.RunTest" time="0.057">
+    <testsuite name="Feature: Login Functionality" time="0.057">
+      <testsuite name="Scenario Outline: User enters username and Password in login page" time="0.057">
+        <testsuite name="Examples:" time="0.057">
+          <testsuite name="| Dummy.1 | dummy123 |" time="0.001" incomplete="true">
+            <skipped/>
+            <testcase name="Given user is on login page" classname="| Dummy.1 | dummy123 |" time="0.001" ignored="true"/>
+            <testcase name="When user enters username Dummy.1 and Password dummy123" classname="| Dummy.1 | dummy123 |" time="0.0" ignored="true"/>
+            <testcase name="Then user checks confirmation message" classname="| Dummy.1 | dummy123 |" time="0.0" ignored="true"/>
+          </testsuite>
+          <testsuite name="| Hello | hie |" time="0.001" incomplete="true">
+            <skipped/>
+            <testcase name="Given user is on login page" classname="| Hello | hie |" time="0.0" ignored="true"/>
+            <testcase name="When user enters username Hello and Password hie" classname="| Hello | hie |" time="0.0" ignored="true"/>
+            <testcase name="Then user checks confirmation message" classname="| Hello | hie |" time="0.0" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
