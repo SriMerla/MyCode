@@ -18,7 +18,7 @@ public class Base {
 	static {
 		try {
 			prop = new Properties();
-			FileInputStream fs = new FileInputStream("C:/Users/sri/eclipse-workspace/phptravels/src/main/java/com/phptravels/config/config.properties");
+			FileInputStream fs = new FileInputStream("\\\\MAC\\Home\\Desktop\\YourLogoOnlineShopping\\src\\test\\resources\\Configs\\config.properties");
 			prop.load(fs);
 		}
 		catch (IOException e) {
@@ -42,7 +42,7 @@ public class Base {
 			driver = new FirefoxDriver();
 		}
 		else {
-			System.setProperty("webdriver.internerexplorer.driver", "/Mac/Home/Desktop/BrowserDrivers/IEDriver/IEDriverServer_x64_3.14.0/IEDriverserver.exe");
+			System.setProperty("webdriver.internerexplorer.driver", "\\\\Mac\\Home\\Desktop\\Selenium\\BrowserDrivers\\IEDriver\\IEDriverServer_x64_3.14.0");
 			driver = new InternetExplorerDriver();
 			
 		}
