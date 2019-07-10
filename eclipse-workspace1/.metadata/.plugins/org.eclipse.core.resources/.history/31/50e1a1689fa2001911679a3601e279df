@@ -1,0 +1,24 @@
+package com.YourLogoOnlineShopping.Base;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		int i = 6;
+		int j = 0;
+		
+		System.out.println("Step 1");
+		System.out.println("Step 2");
+		System.out.println("Step 3");
+		System.out.println("Step 4");
+		System.out.println(divide(i,j));
+		System.out.println("Step 5");
+	}
+	
+	static int divide(int a, int b) {
+		if(b==0) {
+			throw new ArithmeticException();
+		}
+		return a/b;
+	}
+
+}

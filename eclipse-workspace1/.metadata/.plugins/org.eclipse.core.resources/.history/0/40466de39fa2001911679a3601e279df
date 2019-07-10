@@ -1,0 +1,30 @@
+package com.YourLogoOnlineShopping.Base;
+
+import java.io.InterruptedIOException;
+
+public class Main {
+	
+	public static void main(String[] args) throws Exception {
+		int i = 6;
+		int j = 0;
+		
+		System.out.println("Step 1");
+		System.out.println("Step 2");
+		System.out.println("Step 3");
+		System.out.println("Step 4");
+		try {
+			System.out.println(divide(i,j));
+		}catch(InterruptedIOException e) {
+			System.out.println(divide(i,1));
+		}
+		System.out.println("Step 5");
+	}
+	
+	static int divide(int a, int b) throws InterruptedIOException{
+		if(b==0) {
+			throw new InterruptedIOException();
+		}
+		return a/b;
+	}
+
+}

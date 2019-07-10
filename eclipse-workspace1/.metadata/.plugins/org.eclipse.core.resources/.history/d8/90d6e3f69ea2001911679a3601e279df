@@ -1,0 +1,21 @@
+package com.YourLogoOnlineShopping.Base;
+
+public class Main {
+	
+	public static void main(String[] args) throws Exception {
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
+		System.out.println("4");
+		int i = 0;
+		try {
+		if(i == 0) {
+			throw new Exception();
+		}}catch(Exception e) {
+			System.out.println("i is 0");
+		}
+		System.out.println("5");
+		
+	}
+
+}
