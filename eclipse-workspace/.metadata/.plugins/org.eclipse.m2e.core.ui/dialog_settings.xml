@@ -78,6 +78,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="\\Mac\Home\Desktop\YourLogoOnlineShopping"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

@@ -18,7 +18,7 @@ public class Base {
 	static {
 		try {
 			prop = new Properties();
-			FileInputStream fs = new FileInputStream("\\\\MAC\\Home\\Desktop\\YourLogoOnlineShopping\\src\\test\\resources\\Configs\\config.properties");
+			FileInputStream fs = new FileInputStream("C:\\Users\\sri\\eclipse-workspace\\phptravels\\src\\main\\java\\com\\phptravels\\config\\config.properties");
 			prop.load(fs);
 		}
 		catch (IOException e) {
@@ -34,15 +34,15 @@ public class Base {
 		String browserName = prop.getProperty("browser");
 		
 		if (browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "\\\\Mac\\Home/Desktop\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "\\\\Mac\\Home\\Desktop\\Drivers\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if (browserName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver","\\\\Mac\\Home\\Desktop\\BrowserDrivers\\GeckoDriver\\geckodriver-v0.24.0-win64\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver","\\\\Mac\\Home\\Desktop\\Drivers\\FireFoxDriver\\geckodriver-v0.24.0-win64\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		else {
-			System.setProperty("webdriver.internerexplorer.driver", "\\\\Mac\\Home\\Desktop\\Selenium\\BrowserDrivers\\IEDriver\\IEDriverServer_x64_3.14.0");
+			System.setProperty("webdriver.internerexplorer.driver", "\\\\Mac\\Home\\Desktop\\Drivers\\IEDriver\\IEDriverServer_x64_3.14.0");
 			driver = new InternetExplorerDriver();
 			
 		}
