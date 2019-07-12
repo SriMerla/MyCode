@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import com.YourLogoOnlineShopping.Pages.CheckoutPage;
 import com.YourLogoOnlineShopping.Pages.HomePage;
 import com.YourLogoOnlineShopping.Pages.Loginpage;
-import com.YourLogoOnlineShopping.Pages.ProductListingPage;
+import com.YourLogoOnlineShopping.Pages.SearchPage;
 import com.YourLogoOnlineShopping.Pages.RegisterPage;
 
 public class PageObjectManager {
@@ -16,7 +16,7 @@ public class PageObjectManager {
 
 	public HomePage homePage;
 
-	public ProductListingPage productListingPage;
+	public SearchPage searchPage;
 
     public CheckoutPage checkoutPage;
 
@@ -46,9 +46,9 @@ public class PageObjectManager {
 		return (registerPage == null) ? registerPage = new RegisterPage(driver) : registerPage;
 	}
 	
-	public ProductListingPage getProductListingPage() {
+	public SearchPage getSearchPage() {
 		
-		return(productListingPage == null) ? productListingPage = new ProductListingPage(driver) : productListingPage;
+		return(searchPage == null) ? searchPage = new SearchPage(driver) : searchPage;
 	}
 
 

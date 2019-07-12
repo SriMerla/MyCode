@@ -10,30 +10,13 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import managers.PageObjectManager;
 
-public class StepDefs extends Base {
+public class EndToEndStepDefs extends Base {
 
 	Loginpage LoginIntoPage;
 	HomePage homepage;
 	CheckoutPage checkoutPage;
 	PageObjectManager pageObjectManager;
 
-	/*
-	 * @Given("^user is on login page$") public void user_is_on_login_page() throws
-	 * InterruptedException { intialize();
-	 * System.out.println("Initializing the Browser"); Thread.sleep(3000);
-	 * driver.findElement(By.id("email")).sendKeys("demoShopping@gmail.com");
-	 * Thread.sleep(3000); driver.findElement(By.id("passwd")).sendKeys("test@123");
-	 * Thread.sleep(3000); driver.findElement(By.id("SubmitLogin")).click();
-	 * Thread.sleep(3000); }
-	 * 
-	 * @When("^user enters valid username and password$") public void
-	 * user_enters_valid_username_and_password() throws Throwable {
-	 * System.out.println("User enters valid user and password"); }
-	 * 
-	 * @Then("^user verifies the confirmaiton message$") public void
-	 * user_verifies_the_confirmaiton_message() throws Throwable {
-	 * System.out.println("Login Confirmaition Message"); }
-	 */
 
 	@Given("^user is on login page$")
 	public void user_is_on_login_page() {

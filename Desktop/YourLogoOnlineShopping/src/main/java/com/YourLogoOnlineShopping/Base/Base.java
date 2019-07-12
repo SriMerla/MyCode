@@ -9,6 +9,8 @@ package com.YourLogoOnlineShopping.Base;
   import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+
+import managers.PageObjectManager;
   
   public class Base {
   
@@ -57,6 +59,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   
   driver.get(prop.getProperty("url"));
+  
+
   
   }
   
