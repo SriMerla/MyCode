@@ -1,0 +1,15 @@
+package TestRunner;
+
+import cucumber.api.CucumberOptions;
+
+@CucumberOptions(
+			features = {"src/test/resources/features/EndToEndTest.feature"}, 
+			glue={"stepDefinitions"}, 
+			tags={"@Login", "@Checkout", "@Logout"} 
+			
+      )
+
+
+public class TestRun {
+
+}
